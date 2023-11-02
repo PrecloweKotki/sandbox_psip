@@ -1,14 +1,16 @@
+import random
+num = random.randrange(1,50)
 USER_LIST: list = \
-[{"name":"Scholastyka", "nickname":"Cheesegrater","posts":"423"},
-{"name":"Edwin","nickname":"CoolDude1222","posts":"234"},
-{"name":"Kevin","nickname":"Kursywa_Upiorów","posts":"11"},
-{"name":"Stefan","nickname":"Czekoladka","posts":"11"},
-{"name":"Dio","nickname":"Za Warudo","posts":"3"},
-{"name":"Janusz","nickname":"Miodek888","posts":"133"},
-{"name":"Alfred","nickname":"WójekAlfred","posts":"32"},
-{"name":"Ilona","nickname":"Skowronka_Parzzona","posts":"33"},
-{"name":"Pangea","nickname":"MiałamDinozaury","posts":31},
-{"name":"Xnopyt","nickname":"Franciszek","posts":99},
-{"name":"XPC-313","nickname":"TakMnieNazwano","posts":666},
-{"name":"Luigi", "nickname":"Spaghetti_Carbonara", "posts": 123723131786238971}]
+[{"name":"Scholastyka", "nickname":"Cheesegrater","posts": random.randrange(1,80)},
+{"name":"Edwin","nickname":"CoolDude1222","posts": random.randrange(1,80)},
+{"name":"Kevin","nickname":"Kursywa_Upiorów","posts":random.randrange(1,40)},
+{"name":"Stefan","nickname":"Czekoladka","posts":random.randrange(1,55)},
+{"name":"Dio","nickname":"Za Warudo","posts":random.randrange(1,11)},
+{"name":"Janusz","nickname":"Miodek888","posts":random.randrange(1,33)},
+{"name":"Alfred","nickname":"WójekAlfred","posts":random.randrange(1,50)},
+{"name":"Ilona","nickname":"Skowronka_Parzzona","posts": random.randrange(1,50)},
+{"name":"Pangea","nickname":"MiałamDinozaury","posts":random.randrange(1,50)},
+{"name":"Xnopyt","nickname":"Franciszek","posts":random.randrange(1,110)},
+{"name":"XPC-313","nickname":"TakMnieNazwano","posts":random.randrange(1,530)},
+{"name":"Luigi", "nickname":"Spaghetti_Carbonara", "posts": random.randrange(1,300)}]
 
