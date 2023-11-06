@@ -1,5 +1,7 @@
 from dane import USER_LIST
+from utils.functions import remove_user_from, add_user_to, browse_users, gui
 
-print(f'THIS IS A MAPBOOK PROFILE OF {USER_LIST[0]["nickname"]}.')
-for user in USER_LIST:
-    print(f'YOUR FRIEND {user["nickname"]} HAS POSTED {user["posts"]} POSTS')
+gui(USER_LIST)
+
+
+
