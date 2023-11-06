@@ -13,5 +13,6 @@ USER_LIST: list = \
 {"name":"Xnopyt","nickname":"Franciszek","posts":random.randrange(1,110)},
 {"name":"XPC-313","nickname":"TakMnieNazwano","posts":random.randrange(1,530)},
 {"name":"Luigi", "nickname":"Spaghetti_Carbonara", "posts": random.randrange(1,300)},
-{"name":"Mario", "nickname":"Spaghetti_Bolognese", "posts": random.randrange(1,22)}]
+{"name":"Mario", "nickname":"Spaghetti_Bolognese", "posts": random.randrange(1,22)},
+{"name":"Mario", "nickname":"Spaghetti_Napoli", "posts": random.randrange(1,43)}]
 
