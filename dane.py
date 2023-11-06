@@ -3,7 +3,7 @@ num = random.randrange(1,50)
 USER_LIST: list = \
 [{"name":"Scholastyka", "nickname":"Cheesegrater","posts": random.randrange(1,80)},
 {"name":"Edwin","nickname":"CoolDude1222","posts": random.randrange(1,80)},
-{"name":"Kevin","nickname":"Kursywa_Upiorów","posts":random.randrange(1,40)},
+{"name":"Kevin","nickname":"Głodniak","posts":random.randrange(1,40)},
 {"name":"Stefan","nickname":"Czekoladka","posts":random.randrange(1,55)},
 {"name":"Dio","nickname":"Za Warudo","posts":random.randrange(1,11)},
 {"name":"Janusz","nickname":"Miodek888","posts":random.randrange(1,33)},
