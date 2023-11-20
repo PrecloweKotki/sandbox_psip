@@ -1,5 +1,5 @@
 from dane import USER_LIST
-from utils.functions import remove_user_from, add_user_to, browse_users, gui
+from utils.functions import gui
 
 gui(USER_LIST)
 
