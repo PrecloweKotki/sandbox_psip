@@ -6,22 +6,18 @@ def gui(USER_LIST) -> None:
             f'ADD \n' 
             f'REMOVE \n'
             f'BROWSE \n'
-            f'UPDATE \n'
             f'EXIT \n')
       odp = input(f'PICK A FUNCTION')
 
       match odp:
-       case "ADD":
+       case " ADD":
         add_user_to(USER_LIST)
-       case "REMOVE":
+       case " REMOVE":
         remove_user_from(USER_LIST)
-       case "BROWSE":
+       case " BROWSE":
         browse_users(USER_LIST)
-       case "UPDATE":
-        update_usser(USER_LIST)
-       case "EXIT":
+       case " EXIT":
         print('MAPBOOK EXITED SUCCESSFULLY!')
-        break
 
 def browse_users(USER_LIST: list) -> None:
     print("GREETINGS")
@@ -40,16 +36,6 @@ def add_user_to(USER_LIST:list) -> None:
     elif res == "NO":
         print("ALRIGHT")
     break
-
-def update_usser(USER_LIST:list[dict,dict])->None: # 2 razy dict znaczy że obiektów jest 2 lub więcej
-    nick_of_user = input('podaj nick usera do updatowania')
-    for user in USER_LIST:
-        if user['nickname']==nick_of_user:
-            print('znaleziono i czesc')
-            user['name']=input('podaj nowe imie bracie: ')
-            user['nickname']=input('nowa ksywka bracie: ')
-            user['posts']=int(input('no to teraz liczba postow: '))
-
 def remove_user_from(USER_LIST:list) -> None:
  while True:
     tmp_list = []
