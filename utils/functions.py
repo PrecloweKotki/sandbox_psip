@@ -42,13 +42,13 @@ def add_user_to(USER_LIST:list) -> None:
     break
 
 def update_usser(USER_LIST:list[dict,dict])->None: # 2 razy dict znaczy że obiektów jest 2 lub więcej
-    nick_of_user = input('podaj nick usera do updatowania')
+    nick_of_user = input('PLEASE STATE A NAME OF THE USER TO MODIFY')
     for user in USER_LIST:
         if user['nickname']==nick_of_user:
-            print('znaleziono i czesc')
-            user['name']=input('podaj nowe imie bracie: ')
-            user['nickname']=input('nowa ksywka bracie: ')
-            user['posts']=int(input('no to teraz liczba postow: '))
+            print('FOUND')
+            user['name']=input('STATE A NEW NAME: ')
+            user['nickname']=input('STATE A NEW NICKNAME: ')
+            user['posts']=int(input('STATE A NUMBER OF POSTS: '))
 
 def remove_user_from(USER_LIST:list) -> None:
  while True:
