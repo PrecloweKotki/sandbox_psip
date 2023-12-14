@@ -1,4 +1,5 @@
 import random
+import requests
 from dane import USER_LIST
 def gui(USER_LIST) -> None:
     while True:
@@ -77,3 +78,9 @@ def remove_user_from(USER_LIST:list) -> None:
     elif res == "NO":
         print("ALRIGHT")
     break
+
+
+def meteo_from(town_name: str):
+    url = f"https://danepubliczne.imgw.pl/api/data/synop/station/{town_name}"
+    response = requests.get(url).json()
+    return response
